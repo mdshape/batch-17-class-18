@@ -33,4 +33,12 @@
   font-size: 1.2rem;
   border-radius: 30px;
   text-decoration: none;
+  color:white;
+  text-transform: capitalize;
+  transition: background-color 0.5s ease;
+}
+
+.bt-custom:hover{
+  background-color:green;
+  color: black;
 }
