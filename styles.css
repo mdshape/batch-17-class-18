@@ -42,3 +42,20 @@
   background-color:green;
   color: black;
 }
+.features-section{
+  padding:60px 0px;
+}
+
+.features-section h2{
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+.featured-card{
+  background-color: rgb(207, 195,195);
+  padding: 30px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 3px;
+ 
+}
