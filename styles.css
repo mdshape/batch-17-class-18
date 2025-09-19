@@ -57,5 +57,23 @@
   border: none;
   border-radius: 15px;
   margin-bottom: 3px;
+  box-shadow: 20px 8px 20px yellowgreen;
+  transition: transform 0.5s ease;
  
 }
+.featured-card:hover{
+  transform: translateY(10px);
+}
+.featured-card img{
+  width: 70px;
+  margin-bottom: 20px;
+  
+}
+ .featured-card h5{
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  
+ }
+ .featured-card p{
+  font-weight: 500;
+ }
