@@ -5,7 +5,7 @@
   
 }
 .header-section{
-  background-image: url(https://placehold.co/1920x1080);
+  background-image: url(images/fruits.2.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -19,12 +19,13 @@
 .hero-section h1{
  font-size: 4rem;
  margin-bottom: 20px;
- color: rgb(244, 4, 168);
+ color:white
 }
 
 .hero-section p{
   font-size: 1.5rem;
   margin-bottom: 30px;
+  color: white;
 }
 .bt-custom{
   background-color:#FC55A5 ;
@@ -44,6 +45,7 @@
 }
 .features-section{
   padding:60px 0px;
+  background-color: aqua;
 }
 
 .features-section h2{
@@ -77,3 +79,66 @@
  .featured-card p{
   font-weight: 500;
  }
+
+ .testimonial-section{
+  padding: 60px 0px;
+ }
+ .testimonial-section h2{
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 600;
+ }
+ .testimonial-content{
+  padding: 30px;
+ }
+ .testimonial-content{
+  background-color: #ff007b;
+  margin-bottom: 10px;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 20px 8px 20px black;
+  transition: transform 0.5s ease;
+ }
+ .testimonial-content img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+ }
+ .testimonial-content p{
+  font-size: 1.3rem;
+  font-style: italic;
+ }
+ .testimonial-content:hover{
+  transform: translatey(10px);
+ }
+.checkout-section{
+  padding: 60px 0px;
+}
+.checkout-section h2{
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.checkout-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 15px;
+  background-color: #ff007b;
+  box-shadow: 14px 10px 38px yellow;
+  color:white;
+  font-weight: 600;
+}
+.custom-input{
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  
+}
+.btn-custom{
+  width: 20%;
+  border-radius: 15px;
+  padding: 5px;
+  border: none;
+  background-color: white;
+  font-weight: 600;
+} 
