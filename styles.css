@@ -2,7 +2,7 @@
 *{
   margin:0;
   padding:0;
-  
+  font-family: "Hind Siliguri"
 }
 .header-section{
   background-image: url(images/fruits.2.jpg);
@@ -19,7 +19,11 @@
 .hero-section h1{
  font-size: 4rem;
  margin-bottom: 20px;
- color:white
+ color:white;
+text-shadow: 2px 2px 4px green
+}
+.hero-section h1:hover{
+  transform: translatey(10px);
 }
 
 .hero-section p{
@@ -28,7 +32,7 @@
   color: white;
 }
 .bt-custom{
-  background-color:#FC55A5 ;
+  background-color:#ff007b ;
   border: none;
   padding: 15px 30px;
   font-size: 1.2rem;
@@ -142,3 +146,8 @@
   background-color: white;
   font-weight: 600;
 } 
+.footer{
+  padding: 60px 0px;
+  background-color: black;
+  color: white;
+}
