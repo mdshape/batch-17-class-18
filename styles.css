@@ -151,3 +151,18 @@ text-shadow: 2px 2px 4px green
   background-color: black;
   color: white;
 }
+.footer-content{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin-left: 510px;
+}
+.footer-logo{
+  width: 150px;
+  height: 60px;
+  margin-bottom: 30px;
+ 
+}
+.social-icons{
+  
+}
