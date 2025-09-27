@@ -164,5 +164,24 @@ text-shadow: 2px 2px 4px green
  
 }
 .social-icons{
+  padding: 10px;
   
+  
+}
+.social-icons a{
+  font-size: 1.2rem;
+  margin-right: 2px;
+  transition: color 0.5s ease;
+}
+.social-icons .fb{
+  color:#0862F7
+}
+.social-icons .tw{
+  color: white
+}
+.social-icons .youtube{
+  color:red;
+}
+.social-icons a:hover{
+  color:#ff007b;
 }
